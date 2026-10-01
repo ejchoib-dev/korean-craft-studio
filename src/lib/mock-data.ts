@@ -1,0 +1,98 @@
+import type { Craft, WorkshopClass } from '../types';
+
+export const crafts: Craft[] = [
+  {
+    id: 'craft-1',
+    name: '백자 달항아리',
+    type: 'pottery',
+    description: '은은한 유백색의 곡선이 아름다운 전통 달항아리입니다. 한 점 한 점 손으로 빚어 구워냈습니다.',
+    price: 180000,
+    imageUrl: '/images/pottery-1.jpg',
+  },
+  {
+    id: 'craft-2',
+    name: '청자 찻잔 세트',
+    type: 'pottery',
+    description: '맑은 비색 유약이 돋보이는 찻잔 두 개와 다관으로 구성된 세트입니다.',
+    price: 95000,
+    imageUrl: '/images/pottery-2.jpg',
+  },
+  {
+    id: 'craft-3',
+    name: '나전칠기 보석함',
+    type: 'lacquerware',
+    description: '자개를 정교하게 박아 넣은 전통 보석함입니다. 옻칠의 깊은 광택이 일품입니다.',
+    price: 240000,
+    imageUrl: '/images/lacquerware-1.jpg',
+  },
+  {
+    id: 'craft-4',
+    name: '나전 명함케이스',
+    type: 'lacquerware',
+    description: '십장생 문양 자개로 장식한 작고 단아한 명함케이스로, 선물용으로 좋습니다.',
+    price: 65000,
+    imageUrl: '/images/lacquerware-2.jpg',
+  },
+  {
+    id: 'craft-5',
+    name: '모시 조각 보자기',
+    type: 'bojagi',
+    description: '여러 색의 모시 조각을 이어 붙인 조각보 보자기입니다. 선물 포장이나 장식용으로 활용할 수 있습니다.',
+    price: 45000,
+    imageUrl: '/images/bojagi-1.jpg',
+  },
+  {
+    id: 'craft-6',
+    name: '자수 수보자기',
+    type: 'bojagi',
+    description: '전통 꽃무늬를 수놓은 비단 보자기로, 격식 있는 선물 포장에 어울립니다.',
+    price: 78000,
+    imageUrl: '/images/bojagi-2.jpg',
+  },
+  {
+    id: 'craft-7',
+    name: '느티나무 소반',
+    type: 'woodcraft',
+    description: '단단한 느티나무를 깎아 만든 작은 소반입니다. 차상이나 간단한 식사상으로 쓰기 좋습니다.',
+    price: 130000,
+    imageUrl: '/images/woodcraft-1.jpg',
+  },
+  {
+    id: 'craft-8',
+    name: '대추나무 도마',
+    type: 'woodcraft',
+    description: '결이 고운 대추나무로 만든 도마로, 튼튼하고 오래 사용할 수 있습니다.',
+    price: 58000,
+    imageUrl: '/images/woodcraft-2.jpg',
+  },
+];
+
+export const classes: WorkshopClass[] = [
+  {
+    id: 'class-1',
+    name: '도자기 만들기',
+    description: '물레를 돌려 나만의 그릇을 빚어보는 체험 수업입니다. 완성작은 구워서 2주 후 받아보실 수 있습니다.',
+    price: 50000,
+    durationMinutes: 120,
+    capacity: 8,
+    imageUrl: '/images/class-pottery.jpg',
+  },
+  {
+    id: 'class-2',
+    name: '보자기 만들기',
+    description: '조각천을 이어 붙여 나만의 조각보를 만들어 봅니다. 바느질 초보자도 쉽게 따라 할 수 있습니다.',
+    price: 40000,
+    durationMinutes: 90,
+    capacity: 10,
+    imageUrl: '/images/class-bojagi.jpg',
+  },
+  {
+    id: 'class-3',
+    name: '나전칠기 체험',
+    description: '자개를 잘라 붙여 작은 소품에 나전 문양을 새기는 체험입니다. 재료비가 포함되어 있습니다.',
+    price: 70000,
+    durationMinutes: 150,
+    capacity: 6,
+    imageUrl: '/images/class-lacquerware.jpg',
+  },
+];
