@@ -1,0 +1,274 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1790854468225,
+  "projectRoot": "C:\\AI_SERVICE\\korea-craft-studio\\korean-craft-studio",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.3.7",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.8",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.8",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1790854468088,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1790854468102,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1790854468104,
+      "keyFiles": []
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1790854468107,
+      "keyFiles": []
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 2,
+      "lastAccessed": 1790854468108,
+      "keyFiles": [
+        "mock-api.ts",
+        "mock-data.ts"
+      ]
+    },
+    "src\\types": {
+      "path": "src\\types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1790854468109,
+      "keyFiles": [
+        "index.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src",
+      "accessCount": 2,
+      "lastAccessed": 1790854836116,
+      "type": "directory"
+    },
+    {
+      "path": "src/components/tabs/TabNavigation.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1790856095609,
+      "type": "file"
+    },
+    {
+      "path": "app/globals.css",
+      "accessCount": 2,
+      "lastAccessed": 1790856496072,
+      "type": "file"
+    },
+    {
+      "path": "src/components/crafts/ProductList.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1790858871221,
+      "type": "file"
+    },
+    {
+      "path": "src/components/classes/ClassList.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1790858886682,
+      "type": "file"
+    },
+    {
+      "path": "app/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790856088982,
+      "type": "file"
+    },
+    {
+      "path": "src/types/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1790856089568,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/mock-data.ts",
+      "accessCount": 1,
+      "lastAccessed": 1790856090300,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/mock-api.ts",
+      "accessCount": 1,
+      "lastAccessed": 1790856090394,
+      "type": "file"
+    },
+    {
+      "path": "src/components/tabs/CraftsTab.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790856094714,
+      "type": "file"
+    },
+    {
+      "path": "src/components/tabs/ClassesTab.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790856095358,
+      "type": "file"
+    },
+    {
+      "path": "src/components/forms/OrderInquiryForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790856096314,
+      "type": "file"
+    },
+    {
+      "path": "public/images/pottery-1.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857708025,
+      "type": "file"
+    },
+    {
+      "path": "public/images/pottery-2.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857713220,
+      "type": "file"
+    },
+    {
+      "path": "public/images/lacquerware-1.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857720424,
+      "type": "file"
+    },
+    {
+      "path": "public/images/bojagi-1.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857809685,
+      "type": "file"
+    },
+    {
+      "path": "public/images/woodcraft-1.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857831745,
+      "type": "file"
+    },
+    {
+      "path": "public/images/woodcraft-2.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857836477,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-pottery.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857843387,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-bojagi.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857847898,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-lacquerware.svg",
+      "accessCount": 1,
+      "lastAccessed": 1790857854310,
+      "type": "file"
+    },
+    {
+      "path": "src/components/crafts/ProductCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790857962000,
+      "type": "file"
+    },
+    {
+      "path": "src/components/classes/ClassCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1790858893332,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"\\\\\\necho \\\"=== 클래스 탭 데이터 확인 ===\\\" && \\\\\\ncurl -s http://localhost:3000 | grep -o \\\"도자기 만들기\\\\|보자기 만들기\\\\|나전칠기 체험\\\" && \\\\\\necho \\\"\\\" && \\\\\\necho \\\"=== Mock API 함수 확인 ===\\\" && \\\\\\ngrep -o \\\"su...",
+  "error": "Exit code 1\n=== 클래스 탭 데이터 확인 ===",
+  "timestamp": "2026-10-01T12:24:34.123Z",
+  "retry_count": 1
+}
