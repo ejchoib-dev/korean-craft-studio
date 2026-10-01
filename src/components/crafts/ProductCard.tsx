@@ -40,7 +40,7 @@ export default function ProductCard({ craft, onOpenModal }: ProductCardProps) {
           type="button"
           onClick={() => onOpenModal?.(craft.id)}
           aria-label={`${craft.name} 주문 문의하기`}
-          className="w-full rounded-lg bg-amber-700 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-amber-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2 sm:text-base"
+          className="w-full bg-gradient-to-br from-amber-700 to-amber-800 hover:from-amber-800 hover:to-amber-900 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2 text-sm sm:text-base"
         >
           주문 문의하기
         </button>

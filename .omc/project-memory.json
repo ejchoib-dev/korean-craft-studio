@@ -132,9 +132,27 @@
   },
   "hotPaths": [
     {
+      "path": "src/components/forms/OrderInquiryForm.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1790859835991,
+      "type": "file"
+    },
+    {
+      "path": "src/components/forms/ClassApplicationForm.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1790859844243,
+      "type": "file"
+    },
+    {
       "path": "app/globals.css",
       "accessCount": 4,
       "lastAccessed": 1790859364130,
+      "type": "file"
+    },
+    {
+      "path": "src/components/tabs/TabNavigation.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1790859852766,
       "type": "file"
     },
     {
@@ -192,16 +210,22 @@
       "type": "file"
     },
     {
+      "path": "src/components/crafts/ProductCard.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1790859710865,
+      "type": "file"
+    },
+    {
+      "path": "src/components/classes/ClassCard.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1790859728372,
+      "type": "file"
+    },
+    {
       "path": "src",
       "accessCount": 2,
       "lastAccessed": 1790854836116,
       "type": "directory"
-    },
-    {
-      "path": "src/components/tabs/TabNavigation.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1790856095609,
-      "type": "file"
     },
     {
       "path": "src/components/crafts/ProductList.tsx",
@@ -267,24 +291,6 @@
       "path": "src/components/tabs/ClassesTab.tsx",
       "accessCount": 1,
       "lastAccessed": 1790856095358,
-      "type": "file"
-    },
-    {
-      "path": "src/components/forms/OrderInquiryForm.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1790856096314,
-      "type": "file"
-    },
-    {
-      "path": "src/components/crafts/ProductCard.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1790857962000,
-      "type": "file"
-    },
-    {
-      "path": "src/components/classes/ClassCard.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1790858893332,
       "type": "file"
     }
   ],

@@ -44,7 +44,7 @@ export default function ClassCard({ workshopClass, onOpenModal }: ClassCardProps
           type="button"
           aria-label={`${name} 클래스 신청`}
           onClick={() => onOpenModal?.(id)}
-          className="w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 sm:py-3 sm:text-base"
+          className="w-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 text-sm sm:text-base"
         >
           클래스 신청
         </button>

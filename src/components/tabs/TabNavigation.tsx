@@ -51,10 +51,10 @@ export default function TabNavigation({ activeTab, onChange }: TabNavigationProp
             tabIndex={0}
             onClick={() => onChange(id)}
             onKeyDown={(e) => handleKeyDown(e, id)}
-            className={`-mb-px flex-1 border-b-2 px-3 py-3 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 sm:flex-none sm:px-6 sm:py-4 sm:text-base md:px-8 md:text-lg ${
+            className={`-mb-px flex-1 border-b-2 px-3 py-3 text-sm font-medium transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 sm:flex-none sm:px-6 sm:py-4 sm:text-base md:px-8 md:text-lg ${
               isActive
-                ? 'border-amber-700 font-semibold text-amber-700'
-                : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-800'
+                ? 'border-amber-700 font-semibold text-amber-700 shadow-sm'
+                : 'border-transparent text-gray-500 hover:border-amber-200 hover:text-amber-600 hover:bg-amber-50'
             }`}
           >
             {label}

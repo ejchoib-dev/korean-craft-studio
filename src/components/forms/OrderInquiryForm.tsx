@@ -215,7 +215,7 @@ export default function OrderInquiryForm({
           <button
             type="button"
             onClick={onClose}
-            className="rounded-md border border-stone-300 px-4 py-2 text-sm text-stone-700 hover:bg-stone-50"
+            className="flex-1 border border-stone-300 px-4 py-3 text-sm font-medium text-stone-700 rounded-lg hover:bg-stone-50 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400"
           >
             닫기
           </button>
@@ -223,7 +223,7 @@ export default function OrderInquiryForm({
         <button
           type="submit"
           disabled={isLoading}
-          className="rounded-md bg-amber-700 px-4 py-2 text-sm font-medium text-white hover:bg-amber-800 disabled:cursor-not-allowed disabled:bg-stone-400"
+          className="w-full bg-gradient-to-br from-amber-700 to-amber-800 hover:from-amber-800 hover:to-amber-900 disabled:from-stone-400 disabled:to-stone-400 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg disabled:shadow-none disabled:cursor-not-allowed hover:scale-105 disabled:scale-100 text-sm sm:text-base"
         >
           {isLoading ? '접수 중...' : '문의 접수'}
         </button>

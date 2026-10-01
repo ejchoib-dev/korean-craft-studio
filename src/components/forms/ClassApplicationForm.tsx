@@ -113,7 +113,7 @@ export default function ClassApplicationForm({
             type="button"
             onClick={onClose}
             aria-label="닫기"
-            className="rounded px-2 text-2xl leading-none text-stone-600 hover:text-stone-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-600"
+            className="rounded-lg p-2 text-2xl leading-none text-stone-600 hover:text-stone-900 hover:bg-stone-100 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-stone-400"
           >
             ×
           </button>
@@ -259,7 +259,7 @@ export default function ClassApplicationForm({
       <button
         type="submit"
         disabled={isLoading}
-        className="rounded-md bg-stone-900 px-4 py-3 text-base font-semibold text-white hover:bg-stone-700 disabled:cursor-not-allowed disabled:bg-stone-400"
+        className="w-full bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 disabled:from-stone-400 disabled:to-stone-400 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg disabled:shadow-none disabled:cursor-not-allowed hover:scale-105 disabled:scale-100 text-sm sm:text-base"
       >
         {isLoading ? '신청 중...' : '신청하기'}
       </button>
