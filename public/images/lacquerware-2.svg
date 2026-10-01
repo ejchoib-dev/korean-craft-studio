@@ -1,6 +1,17 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="300" fill="#f5f5f0"/>
-  <rect x="90" y="100" width="120" height="120" fill="#1a1a1a" opacity="0.8" rx="5"/>
-  <circle cx="150" cy="160" r="30" fill="#d4af37" opacity="0.6"/>
-  <text x="150" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">명함케이스</text>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#faf8f3"/>
+  <ellipse cx="150" cy="250" rx="70" ry="12" fill="#000" opacity="0.08"/>
+  <!-- Business card case -->
+  <rect x="85" y="90" width="130" height="110" fill="#1a0f08" stroke="#3d2817" stroke-width="1.2" rx="2"/>
+  <!-- Decorative inlay - traditional pattern -->
+  <path d="M 100 105 L 120 125 L 100 145" fill="none" stroke="#8faea8" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 200 105 L 180 125 L 200 145" fill="none" stroke="#8faea8" stroke-width="1.5" opacity="0.6"/>
+  <!-- Center ornament -->
+  <circle cx="150" cy="150" r="8" fill="#8faea8" opacity="0.5"/>
+  <circle cx="150" cy="150" r="5" fill="#9db8b3" opacity="0.6"/>
+  <!-- Edge detail -->
+  <line x1="90" y1="95" x2="210" y2="95" stroke="#d4a555" stroke-width="0.8" opacity="0.5"/>
+  <line x1="90" y1="190" x2="210" y2="190" stroke="#d4a555" stroke-width="0.8" opacity="0.5"/>
+  <!-- Polish shine -->
+  <ellipse cx="115" cy="120" rx="18" ry="20" fill="#fff" opacity="0.12"/>
 </svg>

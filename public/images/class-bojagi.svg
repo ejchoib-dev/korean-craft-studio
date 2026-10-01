@@ -1,5 +1,15 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="300" fill="#f5f5f0"/>
-  <polygon points="60,150 150,80 240,150 150,220" fill="#e8a0bf" opacity="0.8"/>
-  <text x="150" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">보자기 수업</text>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#faf8f3"/>
+  <!-- Bojagi fabric being held/folded -->
+  <polygon points="80,150 150,85 220,150 150,215" fill="#d4a0b5" opacity="0.87" stroke="#c4879f" stroke-width="1"/>
+  <!-- Patchwork squares -->
+  <rect x="110" y="125" width="25" height="25" fill="#c89ba8" opacity="0.6" stroke="#b57393" stroke-width="0.5"/>
+  <rect x="165" y="125" width="25" height="25" fill="#b58ba8" opacity="0.6" stroke="#a57393" stroke-width="0.5"/>
+  <rect x="110" y="165" width="25" height="25" fill="#e8c4d5" opacity="0.7" stroke="#d4a5b8" stroke-width="0.5"/>
+  <rect x="165" y="165" width="25" height="25" fill="#c89ba8" opacity="0.65" stroke="#b57393" stroke-width="0.5"/>
+  <!-- Needle and thread indicator -->
+  <line x1="95" y1="150" x2="125" y2="130" stroke="#a57393" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="90" cy="155" r="3" fill="#a57393" opacity="0.6"/>
+  <!-- Shadow/fold -->
+  <ellipse cx="150" cy="135" rx="50" ry="40" fill="#000" opacity="0.04"/>
 </svg>

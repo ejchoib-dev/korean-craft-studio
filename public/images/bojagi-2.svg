@@ -1,6 +1,21 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="300" fill="#f5f5f0"/>
-  <rect x="50" y="50" width="200" height="200" fill="#daa0b0" opacity="0.7" transform="rotate(45 150 150)"/>
-  <rect x="80" y="80" width="140" height="140" fill="#f5d5e0" opacity="0.7" transform="rotate(45 150 150)"/>
-  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">수보자기</text>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#faf8f3"/>
+  <!-- Embroidered bojagi - rotated diamond -->
+  <polygon points="150,60 230,150 150,240 70,150" fill="#d4a0b5" opacity="0.88" stroke="#c4879f" stroke-width="1"/>
+  <!-- Embroidered flower pattern -->
+  <circle cx="120" cy="120" r="8" fill="#b58ba8" opacity="0.5"/>
+  <circle cx="180" cy="120" r="8" fill="#b58ba8" opacity="0.5"/>
+  <circle cx="150" cy="85" r="8" fill="#b58ba8" opacity="0.5"/>
+  <circle cx="150" cy="155" r="8" fill="#b58ba8" opacity="0.5"/>
+  <circle cx="120" cy="180" r="8" fill="#b58ba8" opacity="0.5"/>
+  <circle cx="180" cy="180" r="8" fill="#b58ba8" opacity="0.5"/>
+  <!-- Flower details (embroidery marks) -->
+  <circle cx="120" cy="120" r="3" fill="#a57393" opacity="0.7"/>
+  <circle cx="180" cy="120" r="3" fill="#a57393" opacity="0.7"/>
+  <circle cx="150" cy="85" r="3" fill="#a57393" opacity="0.7"/>
+  <circle cx="150" cy="155" r="3" fill="#a57393" opacity="0.7"/>
+  <circle cx="120" cy="180" r="3" fill="#a57393" opacity="0.7"/>
+  <circle cx="180" cy="180" r="3" fill="#a57393" opacity="0.7"/>
+  <!-- Silk sheen -->
+  <ellipse cx="130" cy="110" rx="40" ry="35" fill="#fff" opacity="0.08"/>
 </svg>

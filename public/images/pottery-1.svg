@@ -1,6 +1,19 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="300" fill="#f5f5f0"/>
-  <circle cx="150" cy="150" r="80" fill="#c9a98a" opacity="0.8"/>
-  <ellipse cx="150" cy="140" rx="60" ry="50" fill="#d4b5a0"/>
-  <text x="150" y="200" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">도자기</text>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="pot1" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#f5ede3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4bfaa;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" fill="#faf8f3"/>
+  <ellipse cx="150" cy="240" rx="70" ry="15" fill="#000" opacity="0.08"/>
+  <!-- Pottery body -->
+  <path d="M 110 220 Q 100 200 102 160 Q 105 100 150 85 Q 195 100 198 160 Q 200 200 190 220" fill="url(#pot1)" stroke="#c4a892" stroke-width="1"/>
+  <!-- Rim -->
+  <ellipse cx="150" cy="85" rx="42" ry="10" fill="#e8dcc8" stroke="#c4a892" stroke-width="0.5"/>
+  <!-- Highlight -->
+  <ellipse cx="125" cy="120" rx="20" ry="40" fill="#fff" opacity="0.15"/>
+  <!-- Texture lines -->
+  <path d="M 115 140 Q 150 135 185 140" stroke="#c4a892" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 112 170 Q 150 168 188 170" stroke="#c4a892" stroke-width="0.5" fill="none" opacity="0.3"/>
 </svg>

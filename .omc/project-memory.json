@@ -132,6 +132,66 @@
   },
   "hotPaths": [
     {
+      "path": "app/globals.css",
+      "accessCount": 4,
+      "lastAccessed": 1790859364130,
+      "type": "file"
+    },
+    {
+      "path": "public/images/pottery-1.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859287017,
+      "type": "file"
+    },
+    {
+      "path": "public/images/pottery-2.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859304652,
+      "type": "file"
+    },
+    {
+      "path": "public/images/lacquerware-1.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859308251,
+      "type": "file"
+    },
+    {
+      "path": "public/images/bojagi-1.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859316671,
+      "type": "file"
+    },
+    {
+      "path": "public/images/woodcraft-1.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859325615,
+      "type": "file"
+    },
+    {
+      "path": "public/images/woodcraft-2.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859330013,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-pottery.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859347205,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-bojagi.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859349182,
+      "type": "file"
+    },
+    {
+      "path": "public/images/class-lacquerware.svg",
+      "accessCount": 3,
+      "lastAccessed": 1790859353636,
+      "type": "file"
+    },
+    {
       "path": "src",
       "accessCount": 2,
       "lastAccessed": 1790854836116,
@@ -144,12 +204,6 @@
       "type": "file"
     },
     {
-      "path": "app/globals.css",
-      "accessCount": 2,
-      "lastAccessed": 1790856496072,
-      "type": "file"
-    },
-    {
       "path": "src/components/crafts/ProductList.tsx",
       "accessCount": 2,
       "lastAccessed": 1790858871221,
@@ -159,6 +213,24 @@
       "path": "src/components/classes/ClassList.tsx",
       "accessCount": 2,
       "lastAccessed": 1790858886682,
+      "type": "file"
+    },
+    {
+      "path": "public/images/lacquerware-2.svg",
+      "accessCount": 2,
+      "lastAccessed": 1790859312132,
+      "type": "file"
+    },
+    {
+      "path": "public/images/bojagi-2.svg",
+      "accessCount": 2,
+      "lastAccessed": 1790859320770,
+      "type": "file"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1790859374163,
       "type": "file"
     },
     {
@@ -201,60 +273,6 @@
       "path": "src/components/forms/OrderInquiryForm.tsx",
       "accessCount": 1,
       "lastAccessed": 1790856096314,
-      "type": "file"
-    },
-    {
-      "path": "public/images/pottery-1.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857708025,
-      "type": "file"
-    },
-    {
-      "path": "public/images/pottery-2.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857713220,
-      "type": "file"
-    },
-    {
-      "path": "public/images/lacquerware-1.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857720424,
-      "type": "file"
-    },
-    {
-      "path": "public/images/bojagi-1.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857809685,
-      "type": "file"
-    },
-    {
-      "path": "public/images/woodcraft-1.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857831745,
-      "type": "file"
-    },
-    {
-      "path": "public/images/woodcraft-2.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857836477,
-      "type": "file"
-    },
-    {
-      "path": "public/images/class-pottery.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857843387,
-      "type": "file"
-    },
-    {
-      "path": "public/images/class-bojagi.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857847898,
-      "type": "file"
-    },
-    {
-      "path": "public/images/class-lacquerware.svg",
-      "accessCount": 1,
-      "lastAccessed": 1790857854310,
       "type": "file"
     },
     {

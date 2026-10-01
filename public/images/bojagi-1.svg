@@ -1,6 +1,17 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="300" fill="#f5f5f0"/>
-  <polygon points="50,150 150,50 250,150 150,250" fill="#e8a0bf" opacity="0.8"/>
-  <polygon points="100,150 150,100 200,150 150,200" fill="#f5c6e3" opacity="0.8"/>
-  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">보자기</text>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#faf8f3"/>
+  <!-- Bojagi cloth pattern - diamond patchwork -->
+  <polygon points="80,150 150,80 220,150 150,220" fill="#d4a5b8" opacity="0.85" stroke="#c4899f" stroke-width="0.8"/>
+  <polygon points="110,150 150,120 190,150 150,180" fill="#e8c4d5" opacity="0.9" stroke="#d4a5b8" stroke-width="0.6"/>
+  <!-- Texture - fabric details -->
+  <line x1="100" y1="130" x2="200" y2="130" stroke="#c4899f" stroke-width="0.4" opacity="0.3"/>
+  <line x1="95" y1="150" x2="205" y2="150" stroke="#c4899f" stroke-width="0.4" opacity="0.3"/>
+  <line x1="100" y1="170" x2="200" y2="170" stroke="#c4899f" stroke-width="0.4" opacity="0.3"/>
+  <!-- Corner patches -->
+  <polygon points="100,100 120,100 110,115" fill="#c89ba8" opacity="0.6"/>
+  <polygon points="200,100 180,100 190,115" fill="#c89ba8" opacity="0.6"/>
+  <polygon points="100,200 120,200 110,185" fill="#c89ba8" opacity="0.6"/>
+  <polygon points="200,200 180,200 190,185" fill="#c89ba8" opacity="0.6"/>
+  <!-- Fabric fold effect -->
+  <ellipse cx="150" cy="140" rx="45" ry="50" fill="#fff" opacity="0.06"/>
 </svg>
