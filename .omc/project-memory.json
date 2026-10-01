@@ -222,6 +222,12 @@
       "type": "file"
     },
     {
+      "path": "app/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1790860867827,
+      "type": "file"
+    },
+    {
       "path": "src",
       "accessCount": 2,
       "lastAccessed": 1790854836116,
@@ -255,12 +261,6 @@
       "path": "src/components/layout/Header.tsx",
       "accessCount": 2,
       "lastAccessed": 1790859374163,
-      "type": "file"
-    },
-    {
-      "path": "app/page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1790856088982,
       "type": "file"
     },
     {
