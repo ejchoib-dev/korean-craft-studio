@@ -7,7 +7,7 @@ export const crafts: Craft[] = [
     type: 'pottery',
     description: '은은한 유백색의 곡선이 아름다운 전통 달항아리입니다. 한 점 한 점 손으로 빚어 구워냈습니다.',
     price: 180000,
-    imageUrl: '/images/pottery-1.jpg',
+    imageUrl: '/images/pottery-1.svg',
   },
   {
     id: 'craft-2',
@@ -15,7 +15,7 @@ export const crafts: Craft[] = [
     type: 'pottery',
     description: '맑은 비색 유약이 돋보이는 찻잔 두 개와 다관으로 구성된 세트입니다.',
     price: 95000,
-    imageUrl: '/images/pottery-2.jpg',
+    imageUrl: '/images/pottery-2.svg',
   },
   {
     id: 'craft-3',
@@ -23,7 +23,7 @@ export const crafts: Craft[] = [
     type: 'lacquerware',
     description: '자개를 정교하게 박아 넣은 전통 보석함입니다. 옻칠의 깊은 광택이 일품입니다.',
     price: 240000,
-    imageUrl: '/images/lacquerware-1.jpg',
+    imageUrl: '/images/lacquerware-1.svg',
   },
   {
     id: 'craft-4',
@@ -31,7 +31,7 @@ export const crafts: Craft[] = [
     type: 'lacquerware',
     description: '십장생 문양 자개로 장식한 작고 단아한 명함케이스로, 선물용으로 좋습니다.',
     price: 65000,
-    imageUrl: '/images/lacquerware-2.jpg',
+    imageUrl: '/images/lacquerware-2.svg',
   },
   {
     id: 'craft-5',
@@ -39,7 +39,7 @@ export const crafts: Craft[] = [
     type: 'bojagi',
     description: '여러 색의 모시 조각을 이어 붙인 조각보 보자기입니다. 선물 포장이나 장식용으로 활용할 수 있습니다.',
     price: 45000,
-    imageUrl: '/images/bojagi-1.jpg',
+    imageUrl: '/images/bojagi-1.svg',
   },
   {
     id: 'craft-6',
@@ -47,7 +47,7 @@ export const crafts: Craft[] = [
     type: 'bojagi',
     description: '전통 꽃무늬를 수놓은 비단 보자기로, 격식 있는 선물 포장에 어울립니다.',
     price: 78000,
-    imageUrl: '/images/bojagi-2.jpg',
+    imageUrl: '/images/bojagi-2.svg',
   },
   {
     id: 'craft-7',
@@ -55,7 +55,7 @@ export const crafts: Craft[] = [
     type: 'woodcraft',
     description: '단단한 느티나무를 깎아 만든 작은 소반입니다. 차상이나 간단한 식사상으로 쓰기 좋습니다.',
     price: 130000,
-    imageUrl: '/images/woodcraft-1.jpg',
+    imageUrl: '/images/woodcraft-1.svg',
   },
   {
     id: 'craft-8',
@@ -63,7 +63,7 @@ export const crafts: Craft[] = [
     type: 'woodcraft',
     description: '결이 고운 대추나무로 만든 도마로, 튼튼하고 오래 사용할 수 있습니다.',
     price: 58000,
-    imageUrl: '/images/woodcraft-2.jpg',
+    imageUrl: '/images/woodcraft-2.svg',
   },
 ];
 
@@ -75,7 +75,7 @@ export const classes: WorkshopClass[] = [
     price: 50000,
     durationMinutes: 120,
     capacity: 8,
-    imageUrl: '/images/class-pottery.jpg',
+    imageUrl: '/images/class-pottery.svg',
   },
   {
     id: 'class-2',
@@ -84,7 +84,7 @@ export const classes: WorkshopClass[] = [
     price: 40000,
     durationMinutes: 90,
     capacity: 10,
-    imageUrl: '/images/class-bojagi.jpg',
+    imageUrl: '/images/class-bojagi.svg',
   },
   {
     id: 'class-3',
@@ -93,6 +93,6 @@ export const classes: WorkshopClass[] = [
     price: 70000,
     durationMinutes: 150,
     capacity: 6,
-    imageUrl: '/images/class-lacquerware.jpg',
+    imageUrl: '/images/class-lacquerware.svg',
   },
 ];

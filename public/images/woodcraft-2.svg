@@ -1,0 +1,6 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f5f5f0"/>
+  <rect x="70" y="80" width="160" height="150" fill="#a0826d" opacity="0.8" rx="8"/>
+  <rect x="85" y="95" width="130" height="120" fill="#c9a884" opacity="0.6" rx="5"/>
+  <text x="150" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">도마</text>
+</svg>

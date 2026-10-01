@@ -1,0 +1,6 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f5f5f0"/>
+  <polygon points="50,150 150,50 250,150 150,250" fill="#e8a0bf" opacity="0.8"/>
+  <polygon points="100,150 150,100 200,150 150,200" fill="#f5c6e3" opacity="0.8"/>
+  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">보자기</text>
+</svg>

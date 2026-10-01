@@ -1,0 +1,6 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f5f5f0"/>
+  <rect x="80" y="80" width="140" height="140" fill="#7fb3d5" opacity="0.8" rx="10"/>
+  <rect x="85" y="85" width="130" height="130" fill="#a8d8ea" rx="8"/>
+  <text x="150" y="200" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">청자</text>
+</svg>

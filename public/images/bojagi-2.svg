@@ -1,0 +1,6 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f5f5f0"/>
+  <rect x="50" y="50" width="200" height="200" fill="#daa0b0" opacity="0.7" transform="rotate(45 150 150)"/>
+  <rect x="80" y="80" width="140" height="140" fill="#f5d5e0" opacity="0.7" transform="rotate(45 150 150)"/>
+  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">수보자기</text>
+</svg>
